@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.note-app__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.note-app__wraper {
+    
+}
+
+.note-app__title {
+
+}
+.note-app-input__container {
+
+}
+.note-app__input {
+
+}
+.note-app-color__box {
+
+}
+.note-app-color__item {
+
+}
+.buttons-container {
+
+}
+.button-delete {
+
+}
+.button-add {
+
+}
+.notes-container {
+
+}
