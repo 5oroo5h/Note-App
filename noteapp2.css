@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.note-app__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70rem;
+    height: 100vh;
+    text-transform: uppercase;
+   padding-top: 10rem;
+}
+
+.note-app__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.note-app-title__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.note-app__title {
+
+    font-size: 3rem;
+    width: 30rem; 
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #000000;
+}
+
+.note-app-input__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.note-app__input {
+    width: 60%;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 1rem;
+    border-color: rgb(119, 140, 163);
+    outline-color: rgba(253, 167, 223,1.0);
+    
+}
+
+.note-app-color__box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+
+.note-app-color__item {
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    padding-bottom: 2rem;
+}
+
+.button-add {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 6px;
+    border: 3px solid;
+    border-color: rgb(43, 203, 186);
+}
+.button-add:hover {
+
+  color: #fff;
+  background-color: rgba(18, 203, 196,1.0);
+   
+}
+.button-delete {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 6px;
+    border: 3px solid;
+    border-color: rgb(214, 48, 49);
+    margin-left: 0.3rem;
+}
+.button-delete:hover {
+    color: #fff;
+    background-color: rgb(214, 48, 49);
+}
+
+
+.notes-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+min-height: 15rem;
+
+}
+
+.note__text {
+width: 20rem;
+height: 4rem;
+border-radius: 5px;
+text-align: center;
+margin: 1rem 0 1rem 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+box-shadow: 1px 1px 15px 5px  rgba(217, 128, 250,1);
+}
+.note__text:hover {
+    font-size: large;
+    transition: all ease 0.3s;
+}
